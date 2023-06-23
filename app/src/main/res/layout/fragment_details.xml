@@ -11,8 +11,8 @@
 
         <RelativeLayout
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_margin="8dp"
+            android:layout_height="500dp"
+            android:layout_margin="10dp"
             android:background="@android:color/white"
             android:orientation="vertical">
 
@@ -32,15 +32,15 @@
 
             <ToggleButton
                 android:id="@+id/toggle_favorite"
-                android:layout_width="48dp"
-                android:layout_height="48dp"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
                 android:layout_alignParentTop="true"
                 android:layout_alignParentEnd="true"
                 android:layout_marginStart="16dp"
                 android:layout_marginTop="16dp"
                 android:layout_marginEnd="16dp"
                 android:layout_marginBottom="16dp"
-                android:background="@drawable/ic_favorite_47_512"
+                android:background="@drawable/bookmark"
                 android:focusable="false"
                 android:focusableInTouchMode="false"
                 android:textOff=""
@@ -65,12 +65,12 @@
 
             <ImageView
                 android:id="@+id/iv_rating"
-                android:layout_width="30dp"
+                android:layout_width="24dp"
                 android:layout_height="22dp"
                 android:layout_below="@id/tv_movie_title"
                 android:layout_alignParentStart="true"
                 android:layout_marginStart="8dp"
-                android:layout_marginTop="4dp"
+                android:layout_marginTop="5dp"
                 android:background="@drawable/ic_star_86960" />
 
             <TextView
@@ -88,13 +88,13 @@
 
             <ImageView
                 android:id="@+id/iv_popularity"
-                android:layout_width="30dp"
-                android:layout_height="22dp"
+                android:layout_width="25dp"
+                android:layout_height="25dp"
                 android:layout_below="@id/tv_rating"
                 android:layout_alignParentStart="true"
                 android:layout_marginStart="8dp"
-                android:layout_marginTop="4dp"
-                android:background="@drawable/ic_hashtag" />
+                android:layout_marginTop="10dp"
+                android:background="@drawable/view" />
 
             <TextView
                 android:id="@+id/tv_popularity"
@@ -116,8 +116,9 @@
                 android:layout_below="@id/tv_popularity"
                 android:layout_alignParentStart="true"
                 android:layout_alignParentEnd="true"
-                android:layout_marginStart="8dp"
+                android:layout_marginStart="10dp"
                 android:layout_marginEnd="8dp"
+                android:layout_marginTop="10dp"
                 android:visibility="gone"
                 tools:text="Desc"
                 tools:visibility="visible" />
